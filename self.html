@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
+    <link rel="stylesheet" href="./self.css">
 </head>
 <body>
+    <h1>회원 가입</h1>
     <form action="" method="POST">
         <div>
             ID: <input type="text" name="userid" placeholder="아이디를 입력하세요">
@@ -14,25 +16,27 @@
             PASSWORD: <input type="password" name="userpw" placeholder="비밀번호를 입력하세요">
         </div>
         <div>
-            <div>
-                <label for="pw_select">비밀번호 질문</label>
-            </div>
+
+            <label for="pw_select">비밀번호 질문</label>
+            
             <select name="question" id="pw_select">
                 <option value="q1">좋아하는 과일은?</option>
                 <option value="q2">졸업한 초등학교는?</option>
                 <option value="q3">가장 좋아하는 색깔은?</option>
             </select>
+
             <div>
-                <input type="text">
+                <label for="ans">답:</label>
+                <input id="ans" type="text">
             </div>
         </div>
         <div>
-            <div>자기소개</div>
-            <textarea name="content" id="" cols="25" rows="25"></textarea>
+            <div class="intro">자기소개</div>
+            <textarea name="content" id="intro_txt" cols="25" rows="25"></textarea>
         </div>
 
         <button type="submit">submit</button>
-        <input type="button" value="제출"/>
+        <!-- <input type="button" value="제출"/> -->
     </form>
 </body>
 </html>
