@@ -10,9 +10,9 @@
 
   /* TODO */
   /* 포지션 구현하기 */
-  position: absolute;
+  position: relative;
   top:100px;
-  left:100px;
+  left:600px;
 
 }
 .goal {
