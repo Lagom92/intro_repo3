@@ -1,0 +1,17 @@
+.big_box {
+    width: 900px;
+    height: 300px;
+    margin: 100px;
+
+    display: flex;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    border-radius: 20px;
+
+    margin: 3px;
+
+
+}

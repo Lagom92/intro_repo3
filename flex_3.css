@@ -1,0 +1,38 @@
+div {
+    margin: 10px;
+}
+.big_box {
+    width: 1200px;
+    height: 300px;
+    margin: 100px;
+
+    /* display: flex; */
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    border-radius: 20px;
+
+    margin: 3px;
+
+    font-size: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.justy_1 {
+    display: flex;
+    justify-content: flex-start;
+}
+.justy_2 {
+    display: flex;
+    justify-content: center;
+}
+.justy_3 {
+    display: flex;
+    justify-content: flex-end;
+}
