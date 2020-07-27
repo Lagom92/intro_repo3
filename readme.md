@@ -1,13 +1,13 @@
-![](./flex_1.PNG)
+![](./img/flex_1.PNG)
 
 <br/>
 
 
 
-![](./flex_2.PNG)
+![](./img/flex_2.PNG)
 
 
 
 <br/>
 
-![](./flex_3.PNG)
+![](./img/flex_3.PNG)
